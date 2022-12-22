@@ -7,7 +7,7 @@ export const About = () => {
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-yellow-400">About</p>
             </div>
-            <p className="text-xl- mt-20">Actualmente me encuentro cursando un bootcamp de Desarrollo web Full Stack, Estoy continuamente aprendiendo y adquiriendo nuevas habilidades en función a las actuales y futuras demandas y tendencias tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general. Me apasiona lo que hago y es esto mismo lo que me permite seguir creciendo, mejorar mis habilidades y ganar experiencia para generar ideas nuevas y soluciones que puedan enriquecer su proyecto</p>
+            <p className="text-xl- mt-20">I am currently studying a Full Stack Web Development bootcamp. I am continuously learning and acquiring new skills based on current and future demands and technological trends in the field of design and development of web applications in general. I am passionate about what I do and it is this very thing that allows me to continue growing, improve my skills and gain experience to generate new ideas and solutions that can enrich your project.</p>
                 <br />
 
         </div>
