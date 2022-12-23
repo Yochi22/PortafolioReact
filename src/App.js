@@ -4,7 +4,7 @@ import { SocialLinks } from "./components/SocialLinks";
 import {About} from "./components/About";
 import {Projects} from "./components/Projects";
 import  {Habilidades} from "./components/Habilidades";
-import  Contactme from "./components/Contactme";
+import Contactme from "./components/Contactme"
 
 function App() {
   return (

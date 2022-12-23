@@ -3,7 +3,7 @@ import React from "react";
 const Contactme = () => {
   return (
     <div
-      name="contact"
+      name="contactme"
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
@@ -39,7 +39,7 @@ const Contactme = () => {
             ></textarea>
 
             <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's Talk
+              Submit
             </button>
           </form>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from '../assets/heroImage.png'
 import { TiArrowRightThick } from 'react-icons/ti'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
@@ -14,13 +15,13 @@ const Home = () => {
           <p className="text-white py-4 max-w-md">Come meet me.</p>
         
         <div>
-          <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ">
+          <Link to="projects" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ">
             Projects
             <span className="group-hover:rotate-90 duration-300">
             <TiArrowRightThick size={25} />
             </span>
        
-          </button>
+          </Link>
         </div>
         
         </div>

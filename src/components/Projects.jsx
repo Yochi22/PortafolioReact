@@ -40,13 +40,13 @@ export const Projects = () => {
 
     return (
         <div
-          name="portfolio"
+          name="projects"
           className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white"
         >
           <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
               <p className="text-4xl font-bold inline border-b-4 border-yellow-400">
-                Portfolio
+                Projects
               </p>
               <p className="py-6">Check out some of my work right here</p>
             </div>
