@@ -3,6 +3,8 @@ import webTributo from '../assets/projects/webTributo.png'
 import calculadora from '../assets/projects/calculadora.png'
 import toDoList from '../assets/projects/toDoList.png'
 import wheelOf from '../assets/projects/wheelOf.png'
+import tienda from '../assets/projects/tienda.png'
+
 
 export const Projects = () => {
 
@@ -34,6 +36,13 @@ export const Projects = () => {
             demo: 'https://enlacuerdafloja.netlify.app/',
             code: 'https://github.com/Yochi22/EnLaCuerdaFloja'
         },
+
+        {
+          id: 5,
+          src: tienda,
+          demo: 'https://teal-bavarois-134269.netlify.app/',
+          code: 'https://github.com/Yochi22/TiendaOnline'
+      },
     ]
 
 

@@ -31,7 +31,7 @@ const links = [
 
     {
         id: 5,
-        link: 'contact '
+        link: 'contact'
 
     },
 

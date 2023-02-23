@@ -2,6 +2,7 @@ import React from 'react'
 import HeroImage from '../assets/heroImage.png'
 import { TiArrowRightThick } from 'react-icons/ti'
 import { Link } from 'react-scroll'
+import FotoPerfil from '../assets/FotoPerfil.png'
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img src={HeroImage} alt="profile" className="rounded-2xl mx-auto w-2/3 md:w-full px-3" />
+          <img src={FotoPerfil} alt="profile" className="rounded-2xl mx-auto w-2/3 md:w-full px-3" />
         </div>
 
       </div>
