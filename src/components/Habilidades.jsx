@@ -4,7 +4,9 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImg from "../assets/react.png";
-
+import expressJs from "../assets/expressjs.png";
+import nodeJs from "../assets/nodejs.png";
+import mongoDB from "../assets/mongodb.png";
 
 export const Habilidades = () => {
   const techs = [
@@ -32,6 +34,29 @@ export const Habilidades = () => {
       title: "React",
       style: "shadow-blue-600",
     },
+    
+    {
+      id: 5,
+      src: expressJs,
+      title: "Express Js",
+      style: "shadow-blue-600",
+    },
+
+    {
+      id: 6,
+      src: nodeJs,
+      title: "Node Js",
+      style: "shadow-blue-600",
+    },
+
+    {
+      id: 7,
+      src: mongoDB,
+      title: "Mongo DB",
+      style: "shadow-blue-600",
+    },
+
+
     
   ];
 
