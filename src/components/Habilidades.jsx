@@ -7,6 +7,9 @@ import reactImg from "../assets/react.png";
 import expressJs from "../assets/expressjs.png";
 import nodeJs from "../assets/nodejs.png";
 import mongoDB from "../assets/mongodb.png";
+import java from "../assets/java.png";
+import mysql from "../assets/mysql.png";
+import spring from "../assets/spring.png";
 
 export const Habilidades = () => {
   const techs = [
@@ -32,7 +35,7 @@ export const Habilidades = () => {
       id: 4,
       src: reactImg,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-orange-600",
     },
     
     {
@@ -46,16 +49,36 @@ export const Habilidades = () => {
       id: 6,
       src: nodeJs,
       title: "Node Js",
-      style: "shadow-blue-600",
+      style: "shadow-yellow-600",
     },
 
     {
       id: 7,
       src: mongoDB,
       title: "Mongo DB",
+      style: "shadow-orange-600",
+    },
+
+    {
+      id: 8,
+      src: java,
+      title: "Java",
       style: "shadow-blue-600",
     },
 
+    {
+      id: 9,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-yellow-600",
+    },
+
+    {
+      id: 10,
+      src: spring,
+      title: "Spring Boot",
+      style: "shadow-orange-600",
+    },
 
     
   ];

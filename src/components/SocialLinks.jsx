@@ -13,7 +13,7 @@ export const SocialLinks = () => {
                  Linkedin <FaLinkedin size={30}/>
                  </>
             ),
-            href: 'https://www.linkedin.com',
+            href: 'https://www.linkedin.com/in/joselin-lozada',
             style: 'rounded-tr-md'
         },
 
